@@ -10,19 +10,31 @@ Built using: Google Chrome
 
 Desktop Dashboard: [Bylaw Infractions Dashboard](https://mikelotis.github.io/Edmonton-Bylaw-Infractions/)
 
-# Features
+***Note: CLICKABLE ELEMENTS AND MOUSE HOVER, ARE DRIVERS IN REVEALING DATA INSIGHT***
+
+# Features Summary
 ## 1 Selection Options
 Clickable options, and scroll bar
 * Shows the total number of infractions for each neighbourhood at default
 * Multiple options can be selected by clicking one option and holding down the Ctrl key  
 * Multiple options can also be selected by clicking one option and holding down the Shift Key
 * Select all option is the default option
+* The options data changes when the heatmap or bubble cloud are filtered (clicked)
 ## 2 Pie Chart
-Non clickable and dynamic chart
+Non clickable and mouse hover
 * Shows the types of complaints and their percentages
-* The total number of complaint 
+* The total data for each type of complaint is illustrated on the legend
+* Mouse hover unveils the type and corresponding percentage
+* The chart, percentages, and data update whenever the selections, heatmap, or buuble cloud are filtered 
 ## 3 Heatmap
+Clickable year and month text as well as the chamfered rectangles. Mouse hover for each rectangles
+* Each row shows the year trend 
+* Each column shows the month trend for the 7 year time frame
+* Mouse hover shows corresponding complaints for particular month hovered
+* The colors and legend text update whenever the selections or bubble cloud are filtered
 ## 4 Bubble Cloud
+Clickable, elastic radius, and mouse hover
+* Reveals infractions intiators and status 
 ## 5 Map
 ## 6 Number Display
 # TODOs
