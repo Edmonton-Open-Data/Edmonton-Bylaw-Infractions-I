@@ -40,9 +40,10 @@ Desktop Dashboard: [***BYLAW INFRACTIONS DASHBOARD***](https://mikelotis.github.
 ## 5 Map
 * Clickable, zoom, and draggable
 * Illustrates the distribution of infractions 
-* A popup with the name of the neighbourhood and number of infractions appears when a neighbourhood is clicked
-* Clicking (filtering) selection options alters the map by adding a marker and name of the option (neighbourhood) on the map
-* The map and the legend change to reflect the filtered data. The chart filters are bubblecloud and heatmap 
+* Clicking a neighbourhood on the map, a popup with the name and total number of infractions appears
+* Clicking the options alters the map by adding a marker and name of neighbourhood on the map
+* The map and the legend change to reflect the filtered data. 
+* Map filters are bubblecloud and heatmap 
 ## 6 Number Display
 * Dynamic number text
 * Displays **overall** total when no filters are applied
