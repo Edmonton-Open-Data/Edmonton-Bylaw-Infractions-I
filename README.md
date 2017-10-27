@@ -30,7 +30,7 @@ Desktop Dashboard: [***BYLAW INFRACTIONS DASHBOARD***](https://mikelotis.github.
 * Chamfared rectangles, row, and column text are clickable 
 * Mouse hover for each rectangle
 * Each row shows the year's trend 
-* Each column uncovers month trend related to a 7 year time frame (except for missing data)
+* Each column uncovers month's trend related to a 7 year time frame (except for missing data)
 * Mouse hover shows total complaints associated to month hovered
 * Chart updates whenever; selection options or bubble cloud are filtered
 ## 4 Bubble Cloud (initiators and status)
@@ -43,7 +43,7 @@ Desktop Dashboard: [***BYLAW INFRACTIONS DASHBOARD***](https://mikelotis.github.
 * Illustrates geographical distribution of infractions 
 * Popup containing neighbourhoohd's name and number of infractions appears when map is clicked
 * Selecting an option (select all exclusive) places a corresponding marker on the map
-* The map and legend vary to reflect the filtered data 
+* The map and legend vary to reflect filtered data 
 * Map filters are bubblecloud and heatmap 
 ## 6 Number Display (number of infractions)
 * Dynamic number text
