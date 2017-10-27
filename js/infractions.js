@@ -67,8 +67,11 @@
 
         //Define values (to be used by chart(s))
         //Got the colors from http://colorbrewer2.org
-        var heatColors = ['#a6cee3','#1f78b4','#b2df8a','#33a02c','#fb9a99'];
-        var pieScaleColors = d3.scale.quantize().domain([0,4]).range(heatColors);
+//         var heatColors = ['#a6cee3','#1f78b4','#b2df8a','#33a02c','#fb9a99'];
+        var heatColors = ['#edf8e9','#bae4b3','#74c476','#31a354','#006d2c'];
+        var mapColors = ['#eff3ff','#bdd7e7','#6baed6','#3182bd','#08519c'];
+        var otherColors =  ['#a6cee3','#1f78b4','#b2df8a','#33a02c','#fb9a99']; //for bubble and pie
+        var pieScaleColors = d3.scale.quantize().domain([0,4]).range(otherColors);
         var monthNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
         var neighCoords = coordsGroup.all().map(function(d) { 
 
@@ -135,7 +138,7 @@
                             .dimension(neighbourhoodsDim)
                             .group(neighbourhoodGroup)
                             .geojson(geojson)
-                            .colors(heatColors)
+                            .colors(mapColors)
                             .colorDomain([d3.min(neighbourhoodsArray, dc.pluck('value')),
                                         d3.max(neighbourhoodsArray, dc.pluck('value'))])
                             .colorAccessor(function(d) { return d.value; })
@@ -172,7 +175,7 @@
                 })
             .on("renderlet.pie", function(chart) {
 
-                //click to null to not cause a duplicate for the leaflet legend
+                //click to null, to not cause a duplicate for the leaflet legend
                 d3.selectAll(".dc-legend-item").on("click", null); 
                 d3.selectAll("g.pie-slice path").on("click", null);
                 d3.selectAll("g.pie-label-group text").on("click", null);
@@ -181,23 +184,23 @@
         pie.filter = function() {};              
 
 
-            //heatmap    
-        //Update color range with filtered data
+         //heatmap    
         var heat = function() {
-
-            var yearMonthArray = yearMonthGroup.all();//filtered data
+            
+            //filtered data
+            var yearMonthArray = yearMonthGroup.all();
 
             return heatMap
-                            .dimension(yearMonthDim)
-                            .group(yearMonthGroup)
-                            .keyAccessor(function(d) { return d.key[0]; })
-                            .valueAccessor(function(d) { return d.key[1]; })
-                            .colsLabel(function(d, i){ return monthNames[i]})
-                            .title(function(d) { return "Complaints: "+ d.value.toLocaleString(); })
-                            .colorAccessor(function(d) { return d.value; })
-                            .colors(heatColors)
-                            .calculateColorDomain([d3.min(yearMonthArray, dc.pluck('value')),
-                                                d3.max(yearMonthArray, dc.pluck('value'))]);
+                          .dimension(yearMonthDim)
+                          .group(yearMonthGroup)
+                          .keyAccessor(function(d) { return d.key[0]; })
+                          .valueAccessor(function(d) { return d.key[1]; })
+                          .colsLabel(function(d, i){ return monthNames[i]})
+                          .title(function(d) { return "Complaints: "+ d.value.toLocaleString(); })
+                          .colorAccessor(function(d) { return d.value; })
+                          .colors(heatColors)
+                          .calculateColorDomain([d3.min(yearMonthArray, dc.pluck('value')), 
+                                                 d3.max(yearMonthArray, dc.pluck('value'))]);
         };
 
         
@@ -250,7 +253,7 @@
 
 
         //the leaflet map can only be accessed after rendering of the dc choropleth
-        //the map is in within the dc baseMixin name space
+        //the map is in within the dc name space
         choro().on("renderlet.choro", function(choropleth, filter){
 
             //the leaflet map instance
