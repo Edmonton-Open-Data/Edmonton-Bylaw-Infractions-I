@@ -68,9 +68,11 @@
         //Define values (to be used by chart(s))
         //Got the colors from http://colorbrewer2.org
         var heatColors = ['#edf8e9','#bae4b3','#74c476','#31a354','#006d2c'];
-        var otherColors = ['#66c2a5','#fc8d62','#8da0cb','#e78ac3','#a6d854'];//for bubble and pie
+        var pieColors = ['#66c2a5','#fc8d62','#8da0cb','#e78ac3','#a6d854'];
         var mapColors =  ['#a6cee3','#1f78b4','#b2df8a','#33a02c','#fb9a99']; 
-        var pieScaleColors = d3.scale.quantize().domain([0,4]).range(otherColors);
+        var bubbleColors = mapColors.filter(return d != '#fb9a99'; );
+        var pieScaleColors = d3.scale.quantize().domain([0, pieColors.length - 1]).range(pieColors);
+        var bubbleScaleColors = d3.scale.quantize().domain([0, bubbleColors.length - 1]).range(bubbleColors);
         var monthNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
         var neighCoords = coordsGroup.all().map(function(d) { 
 
@@ -214,7 +216,7 @@
                     .label(function(d){ return d.key[0]+": "+d.key[1]; })
                     .title(function(d) { return '('+d.key[0]+')'+d.key[1] + ': ' + d.value.toLocaleString(); })
                     .colorAccessor(function(d, i){return i;})
-                    .colors(pieScaleColors);
+                    .colors(bubbleScaleColors);
 
 
         //number display
