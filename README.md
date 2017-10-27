@@ -13,7 +13,7 @@ Desktop Dashboard: [***BYLAW INFRACTIONS DASHBOARD***](https://mikelotis.github.
 ***Note: CLICKABLE ELEMENTS AND MOUSE HOVER, ARE DRIVERS IN REVEALING DATA INSIGHT***
 
 # Features Summary
-***BYLAW INFRACTIONS DASHBOARD*** comprises of the following:
+ [***BYLAW INFRACTIONS DASHBOARD***](https://mikelotis.github.io/Edmonton-Bylaw-Infractions/) comprises of the following:
 ## 1 Selection Options (neighbourhood selection)
 * Clickable options, key up and down, and scroll bar
 * Select all default option
