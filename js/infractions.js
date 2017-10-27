@@ -67,7 +67,7 @@
 
         //Define values (to be used by chart(s))
         //Got the colors from http://colorbrewer2.org
-        var heatColors = ['#eff3ff','#bdd7e7','#6baed6','#3182bd','#08519c'];
+        var heatColors = ['#ffffcc','#a1dab4','#41b6c4','#2c7fb8','#253494'];
         var pieColors = ['#66c2a5','#fc8d62','#8da0cb','#e78ac3','#a6d854'];
         var mapColors =  ['#a6cee3','#1f78b4','#b2df8a','#33a02c','#fb9a99']; 
         var pieScaleColors = d3.scale.quantize().domain([0, pieColors.length - 1]).range(pieColors);
