@@ -68,8 +68,8 @@
         //Define values (to be used by chart(s))
         //Got the colors from http://colorbrewer2.org
         var heatColors = ['#edf8e9','#bae4b3','#74c476','#31a354','#006d2c'];
-        var mapColors = ['#f0f9e8','#bae4bc','#7bccc4','#43a2ca','#0868ac'];
-        var otherColors =  ['#a6cee3','#1f78b4','#b2df8a','#33a02c','#fb9a99']; //for bubble and pie
+        var otherColors = ['#66c2a5','#fc8d62','#8da0cb','#e78ac3','#a6d854'];//for bubble and pie
+        var mapColors =  ['#a6cee3','#1f78b4','#b2df8a','#33a02c','#fb9a99']; 
         var pieScaleColors = d3.scale.quantize().domain([0,4]).range(otherColors);
         var monthNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
         var neighCoords = coordsGroup.all().map(function(d) { 
