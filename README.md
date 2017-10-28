@@ -50,4 +50,17 @@ Desktop Dashboard: [***BYLAW INFRACTIONS DASHBOARD***](https://mikelotis.github.
 * Displays **overall** total when no filters are applied
 * Updates to match filtered data
 # TODOs
+Improvements for the dashboard include:
+* Replace option listeners with d3.selection.node()
+* Connect the options and leaflet using neighbourhood names 
+* Construct a custom layer and set methods to rest and update the layer
+* Replace map click with map hover
+* Only draw the charts after is data loaded
+* Add loading animation
+* Add selection options into the map as a side bar and change dashboard layout
+* Add a tabular component for additional charts
+* Add reset for filterable componets
+* Add reset for the dashboard
+* Add a feature for downloading a summary report
+* Make dashboard responsive for both mobile and desktop by using aspect ratio
 
