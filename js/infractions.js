@@ -67,11 +67,12 @@
 
         //Define values (to be used by chart(s))
         //Got the colors from http://colorbrewer2.org
-        var heatColors = ['#74c476','#41ab5d','#238b45','#006d2c','#00441b'];
+        var heatColors = ['#d9f0d3','#a6dba0','#5aae61','#1b7837','#00441b'];
         var pieColors = ['#66c2a5','#fc8d62','#8da0cb','#e78ac3','#a6d854'];
-        var mapColors =  ['#6baed6','#4292c6','#2171b5','#08519c','#08306b']; 
+        var mapColors =  ['#d1e5f0','#92c5de','#4393c3','#2166ac','#053061'];
+        var bubbleColors = ['#a6cee3','#1f78b4','#b2df8a','#33a02c']; 
         var pieScaleColors = d3.scale.quantize().domain([0, pieColors.length - 1]).range(pieColors);
-        var bubbleScaleColors = d3.scale.quantize().domain([0, mapColors.length - 1]).range(mapColors);
+        var bubbleScaleColors = d3.scale.quantize().domain([0, mapColors.length - 1]).range(bubbleColors);
         var monthNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
         var neighCoords = coordsGroup.all().map(function(d) { 
 
@@ -310,12 +311,13 @@
                         this._div.innerHTML = name;
                     };
 
+                    //not efficient and DRY(Don't Repeat Yourself)
+                    //potential solution construct and control a custom layer
                     erase('div.leaflet-top.leaflet-right div');//remove previous myinfo div
+                    erase("div.leaflet-marker-pane img");//remove previous marker
+                    erase("div.leaflet-shadow-pane img");//remove previous shade                    
                     
                     info.addTo(map);
-
-                    erase("div.leaflet-marker-pane img");//remove previous marker
-                    erase("div.leaflet-shadow-pane img");//remove previous shade
 
                     var marker = L.marker(markerLocation).addTo(map);//marker
                 });
