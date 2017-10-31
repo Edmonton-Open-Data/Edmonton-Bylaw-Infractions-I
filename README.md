@@ -51,16 +51,15 @@ Desktop Dashboard: [***BYLAW INFRACTIONS DASHBOARD***](https://mikelotis.github.
 * Updates to match filtered data
 # TODOs
 Improvements for the dashboard include:
-* Replace option listeners with d3.selection.node()
-* Connect the options and leaflet using neighbourhood names 
-* Construct a custom layer and set methods to rest and update the layer
+* Construct a [custom layer](http://leafletjs.com/examples/extending/extending-2-layers.html) and set methods to reset and update the layer
+* Set brush on for the map (neighbourhoods to be selected via the map) and change dashboard layout
 * Replace map click with map hover
-* Only draw the charts after is data loaded
-* Add loading animation
-* Add selection options into the map as a side bar and change dashboard layout
-* Add a tabular component for additional charts
+* Only draw the charts after [data is loaded](http://adilmoujahid.com/posts/2016/08/interactive-data-visualization-geospatial-d3-dc-leaflet-python/)
+* Add a [loader](https://www.w3schools.com/howto/howto_css_loader.asp)
+* Add a [tabular](https://keen.github.io/dashboards/examples/connected-devices/) component for additional charts
 * Add reset for filterable componets
-* Add reset for the dashboard
-* Add a feature for downloading a summary report
-* Make dashboard responsive for both mobile and desktop by using aspect ratio
+* Add reset all for the dashboard
+* Add a feature for downloading a [data table](http://dc-js.github.io/dc.js/examples/download-table.html)
+* Make dashboard responsive for both mobile and desktop by using [aspect ratio](https://blog.webkid.io/responsive-chart-usability-d3/)
+* Learn from [austinlyons](https://github.com/austinlyons/dcjs-leaflet-untappd) and [Gordon Woodhull](http://bl.ocks.org/gordonwoodhull/c506b130f17cd77a015b2b229ecb4f22)
 
