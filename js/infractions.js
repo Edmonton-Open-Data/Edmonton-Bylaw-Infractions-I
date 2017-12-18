@@ -349,6 +349,8 @@
             var legendOrigin = {x:70, y:0};     
 
             var scaleSvg = d3.select('svg#heat-legend');
+            
+            d3.selectAll("#heat-legend g").remove();
 
             var rects = scaleSvg.append('g').selectAll("rect")
                 .data(heatRects)
