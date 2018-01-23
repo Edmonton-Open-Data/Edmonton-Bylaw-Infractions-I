@@ -12,7 +12,7 @@ Built using: Google Chrome
 Desktop Dashboard(Outdated): [*****BYLAW INFRACTIONS DASHBOARD (CLICK ME!)*****](https://mikelotis.github.io/Edmonton-Bylaw-Infractions-Outdated/)<br>
 Desktop Dashboard(Updated): [*****BYLAW INFRACTIONS DASHBOARD UPDATED(CLICK ME!)*****](https://mikelotis.github.io/Edmonton-Bylaw-Infractions-Updated/)
 
-***Note: CLICKABLE ELEMENTS AND MOUSE HOVER, ARE DRIVERS IN REVEALING DATA INSIGHT***
+***Note: CLICKABLE ELEMENTS AND MOUSEOVER, ARE DRIVERS IN REVEALING DATA INSIGHT***
 
 # Features Summary
  [***BYLAW INFRACTIONS DASHBOARD***](https://mikelotis.github.io/Edmonton-Bylaw-Infractions-Outdated/) comprises of the following:
@@ -23,22 +23,22 @@ Desktop Dashboard(Updated): [*****BYLAW INFRACTIONS DASHBOARD UPDATED(CLICK ME!)
 * Multiple options can be selected using [Ctrl or Shift key](https://www.discoverskills.com/select-multiple-files-ctrl-shift-keys/) mapping.
 * Options data changes when the heatmap or bubble cloud are filtered (clicked)
 ## 2 Pie Chart (types of complaint)
-* Non-clickable and mouse hover
+* Non-clickable and mouseover
 * Shows types of complaints and their percentages
 * Total data for each type is illustrated on the legend
-* Mouse hover unveils type and percentage
+* Mouseover unveils type and percentage
 * Chart updates whenever; selection options, heatmap, or bubble cloud are filtered 
-## 3 Heatmap (yearly and month trend)
+## 3 Heatmap (yearly and monthly trend)
 * Chamfared rectangles, row, and column text are clickable 
-* Mouse hover for each rectangle
+* Mouseover for each rectangle
 * Each row shows the year's trend 
 * Each column uncovers month's trend related to a 7 year time frame (except for missing data)
-* Mouse hover shows total complaints associated to month hovered
+* Mouseover shows total complaints associated to month hovered
 * Chart updates whenever; selection options or bubble cloud are filtered
 ## 4 Bubble Cloud (initiators and status)
-* Clickable, elastic radius, and mouse hover
+* Clickable, elastic radius, and mouseover
 * Reveals infraction intiators and status 
-* Mouse hover displays intiator, status and total number of infractions respectively
+* Mouseover displays intiator, status and total number of infractions respectively
 * Updates in response to filtering selection options or heatmap
 ## 5 Map (neighbourhoods map)
 * Clickable, zoomable, and draggable
