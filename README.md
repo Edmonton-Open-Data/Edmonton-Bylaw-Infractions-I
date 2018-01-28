@@ -9,7 +9,7 @@ Inspiration for the project: [Interactive Data Visualization of Geospatial Data]
 Frameworks used include: [crossfilter.js](http://square.github.io/crossfilter/), [dc.js](https://dc-js.github.io/dc.js/), [d3.js](https://d3js.org/), [leaflet.js](http://leafletjs.com/), [keen_io.js](https://keen.github.io/dashboards/), [dc_addons.js](https://github.com/Intellipharm/dc-addons) and [bootstrap.js](https://getbootstrap.com/docs/3.3/javascript/)<br>
 Built using: Google Chrome
 
-Desktop Dashboard(I): [*****BYLAW INFRACTIONS DASHBOARD (CLICK ME!)*****](https://mikelotis.github.io/Edmonton-Bylaw-Infractions-I/)<br>
+Desktop Dashboard - I: [*****BYLAW INFRACTIONS DASHBOARD (CLICK ME!)*****](https://mikelotis.github.io/Edmonton-Bylaw-Infractions-I/)<br>
 Desktop Dashboard(Updated): [*****BYLAW INFRACTIONS DASHBOARD UPDATED(CLICK ME!)*****](https://mikelotis.github.io/Edmonton-Bylaw-Infractions-Updated/)
 
 ***Note: CLICKABLE ELEMENTS AND MOUSEOVER, ARE DRIVERS IN REVEALING DATA INSIGHT***
