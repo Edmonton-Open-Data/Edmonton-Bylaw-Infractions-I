@@ -1,6 +1,5 @@
 # Bylaw Infractions Dashboard
 ![](bylaw_infractions.gif)
-![](responsive.gif)
 
 # Dashboard Summary
 Built to analyze bylaw infractions data acquired from [Open Data (City of Edmonton)](https://data.edmonton.ca/Community-Services/Bylaw-Infractions/xgwu-c37w). Bylaw infractions data comprises of 63,365 rows. Each row has 13 attributes as shown on aforementioned website. The whole data set was used in this example, even though 2017 data is incomplete. However, only 9 attributes were used to make the dashboard. Each neighbourhood has a unique combination of: pie chart, heatmap, bubble cloud, location on the map, and total number of infractions. The first instance of the dashboard (after data is loaded) is select all, whereby **all** neighbourhoods are selected and **overall** sum of infractions is displayed.
