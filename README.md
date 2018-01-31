@@ -1,4 +1,4 @@
-# Bylaw Infractions Dashboard
+# Bylaw Infractions Dashboard I
 ![](bylaw_infractions.gif)
 
 # Dashboard Summary
@@ -8,8 +8,8 @@ Inspiration for the project: [Interactive Data Visualization of Geospatial Data]
 Frameworks used include: [crossfilter.js](http://square.github.io/crossfilter/), [dc.js](https://dc-js.github.io/dc.js/), [d3.js](https://d3js.org/), [leaflet.js](http://leafletjs.com/), [keen_io.js](https://keen.github.io/dashboards/), [dc_addons.js](https://github.com/Intellipharm/dc-addons) and [bootstrap.js](https://getbootstrap.com/docs/3.3/javascript/)<br>
 Built using: Google Chrome
 
-Desktop Dashboard(Outdated): [*****BYLAW INFRACTIONS DASHBOARD (CLICK ME!)*****](https://mikelotis.github.io/Edmonton-Bylaw-Infractions-I/)<br>
-Desktop Dashboard(Updated): [*****BYLAW INFRACTIONS DASHBOARD UPDATED(CLICK ME!)*****](https://mikelotis.github.io/Edmonton-Bylaw-Infractions-Updated/)
+Desktop Dashboard(Outdated): [*****BYLAW INFRACTIONS DASHBOARD I (CLICK ME!)*****](https://mikelotis.github.io/Edmonton-Bylaw-Infractions-I/)<br>
+Desktop Dashboard(Updated): [*****BYLAW INFRACTIONS DASHBOARD II (CLICK ME!)*****](https://mikelotis.github.io/Edmonton-Bylaw-Infractions-II/)
 
 ***Note: CLICKABLE ELEMENTS AND MOUSEOVER, ARE DRIVERS IN REVEALING DATA INSIGHT***
 
@@ -52,16 +52,16 @@ Desktop Dashboard(Updated): [*****BYLAW INFRACTIONS DASHBOARD UPDATED(CLICK ME!)
 * Updates to match filtered data
 # TODOs
 Improvements for the dashboard include:
-* ~~Construct a [custom layer](http://leafletjs.com/examples/extending/extending-2-layers.html) and set methods to reset and update the layer~~
-* ~~Set brush on for the map (neighbourhoods to be selected via the map) and change dashboard layout~~
-* ~~Replace map click with map hover~~
-* Only draw the charts after [data is loaded](http://adilmoujahid.com/posts/2016/08/interactive-data-visualization-geospatial-d3-dc-leaflet-python/)
-* Add a [loader](https://www.w3schools.com/howto/howto_css_loader.asp)
-* Add a [tabular](https://keen.github.io/dashboards/examples/connected-devices/) component for additional charts
-* ~~Add reset for filterable componets~~
-* ~~Add reset all for the dashboard~~
-* Add a feature for downloading a [data table](http://dc-js.github.io/dc.js/examples/download-table.html)
-* Improve performance for [heatmap](http://dc-js.github.io/dc.js/examples/heatmap-filtering.html)
-* ~~Make dashboard responsive for both mobile and desktop by using [aspect ratio](https://blog.webkid.io/responsive-chart-usability-d3/)~~
-* Learn from [austinlyons](https://github.com/austinlyons/dcjs-leaflet-untappd) and ~~[Gordon Woodhull](http://bl.ocks.org/gordonwoodhull/c506b130f17cd77a015b2b229ecb4f22)~~
+- [x] Construct a [custom layer](http://leafletjs.com/examples/extending/extending-2-layers.html) and set methods to reset and update the layer
+- [x] Set brush on for the map (neighbourhoods to be selected via the map) and change dashboard layout
+- [x] Replace map click with map hover
+- [ ] Only draw the charts after [data is loaded](http://adilmoujahid.com/posts/2016/08/interactive-data-visualization-geospatial-d3-dc-leaflet-python/)
+- [ ] Add a [loader](https://www.w3schools.com/howto/howto_css_loader.asp)
+- [ ] Add a [tabular](https://keen.github.io/dashboards/examples/connected-devices/) component for additional charts
+- [x] Add reset for filterable componets
+- [x] Add reset all for the dashboard
+- [ ] Add a feature for downloading a [data table](http://dc-js.github.io/dc.js/examples/download-table.html)
+- [ ] Improve performance for [heatmap](http://dc-js.github.io/dc.js/examples/heatmap-filtering.html)
+- [x] Make dashboard responsive for both mobile and desktop by using [aspect ratio](https://blog.webkid.io/responsive-chart-usability-d3/)
+- [ ] Learn from [austinlyons](https://github.com/austinlyons/dcjs-leaflet-untappd) and ~~[Gordon Woodhull](http://bl.ocks.org/gordonwoodhull/c506b130f17cd77a015b2b229ecb4f22)~~
 
