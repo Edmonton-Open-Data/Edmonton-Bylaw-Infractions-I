@@ -61,7 +61,7 @@ Improvements for the dashboard include:
 - [x] Add reset for filterable componets
 - [x] Add reset all for the dashboard
 - [ ] Add a feature for downloading a [data table](http://dc-js.github.io/dc.js/examples/download-table.html)
-- [ ] Improve performance for [heatmap](http://dc-js.github.io/dc.js/examples/heatmap-filtering.html)
+- [x] ~~Improve performance for [heatmap](http://dc-js.github.io/dc.js/examples/heatmap-filtering.html)~~ Decided not to use the heatmap
 - [x] Make dashboard responsive for both mobile and desktop by using [aspect ratio](https://blog.webkid.io/responsive-chart-usability-d3/)
-- [ ] Learn from [austinlyons](https://github.com/austinlyons/dcjs-leaflet-untappd) and ~~[Gordon Woodhull](http://bl.ocks.org/gordonwoodhull/c506b130f17cd77a015b2b229ecb4f22)~~
+- [ ] Learn from [austinlyons](https://github.com/austinlyons/dcjs-leaflet-untappd) and ~~[Gordon Woodhull](http://bl.ocks.org/gordonwoodhull/c506b130f17cd77a015b2b229ecb4f22)~~ Learnt only from Gordon
 
