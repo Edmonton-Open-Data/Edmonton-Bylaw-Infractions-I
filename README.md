@@ -28,7 +28,7 @@ Desktop Dashboard(Updated): [*****BYLAW INFRACTIONS DASHBOARD II (CLICK ME!)****
 * Mouseover unveils type and percentage
 * Chart updates whenever; selection options, heatmap, or bubble cloud are filtered 
 ## 3 Heatmap (yearly and monthly trend)
-* Chamfared rectangles, row, and column text are clickable 
+* Rounded rectangles, row, and column text are clickable 
 * Mouseover for each rectangle
 * Each row shows the year's trend 
 * Each column uncovers month's trend related to a 7 year time frame (except for missing data)
