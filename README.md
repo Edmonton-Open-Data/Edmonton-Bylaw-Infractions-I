@@ -50,7 +50,7 @@ Desktop Dashboard(Updated): [*****BYLAW INFRACTIONS DASHBOARD II (CLICK ME!)****
 * Dynamic number text
 * Displays **overall** total when no filters are applied
 * Updates to match filtered data
-# TODOs
+# To-do's
 Improvements for the dashboard include:
 - [x] Construct a [custom layer](http://leafletjs.com/examples/extending/extending-2-layers.html) and set methods to reset and update the layer
 - [x] Set brush on for the map (neighbourhoods to be selected via the map) and change dashboard layout
