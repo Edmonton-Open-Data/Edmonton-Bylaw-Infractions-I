@@ -37,7 +37,7 @@ Desktop Dashboard(Updated): [*****BYLAW INFRACTIONS DASHBOARD II (CLICK ME!)****
 ## 4 Bubble Cloud (initiators and status)
 * Clickable, elastic radius, and mouseover
 * Reveals infraction intiators and status 
-* Mouseover displays intiator, status and total number of infractions respectively
+* Mouseover displays intiator or status with related total number of infractions
 * Updates in response to filtering selection options or heatmap
 ## 5 Map (neighbourhoods map)
 * Clickable, zoomable, and draggable
