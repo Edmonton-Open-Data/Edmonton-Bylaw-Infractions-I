@@ -8,13 +8,13 @@ Inspiration for the project: [Interactive Data Visualization of Geospatial Data]
 Frameworks used include: [crossfilter.js](http://square.github.io/crossfilter/), [dc.js](https://dc-js.github.io/dc.js/), [d3.js](https://d3js.org/), [leaflet.js](http://leafletjs.com/), [keen_io.js](https://keen.github.io/dashboards/), [dc_addons.js](https://github.com/Intellipharm/dc-addons) and [bootstrap.js](https://getbootstrap.com/docs/3.3/javascript/)<br>
 Best viewed in: Google Chrome
 
-Desktop Dashboard(Outdated): [*****BYLAW INFRACTIONS DASHBOARD I (CLICK ME!)*****](https://mikelotis.github.io/Edmonton-Bylaw-Infractions-I/)<br>
+Desktop Dashboard(Outdated): [*****BYLAW INFRACTIONS DASHBOARD I (CLICK ME!)*****]( https://edmonton-open-data.github.io/Edmonton-Bylaw-Infractions-I/index.html)<br>
 Desktop Dashboard(Updated): [*****BYLAW INFRACTIONS DASHBOARD II (CLICK ME!)*****](https://mikelotis.github.io/Edmonton-Bylaw-Infractions-II/)
 
 ***Note: CLICKABLE ELEMENTS AND MOUSEOVER, ARE DRIVERS IN REVEALING DATA INSIGHT***
 
 # Features Summary
- [***BYLAW INFRACTIONS DASHBOARD***](https://mikelotis.github.io/Edmonton-Bylaw-Infractions-I/) comprises of the following:
+ [***BYLAW INFRACTIONS DASHBOARD***]( https://edmonton-open-data.github.io/Edmonton-Bylaw-Infractions-I/index.html) comprises of the following:
 ## 1 Selection Options (neighbourhood selection)
 * Clickable options, key up and down, and scroll bar
 * Select all default option
