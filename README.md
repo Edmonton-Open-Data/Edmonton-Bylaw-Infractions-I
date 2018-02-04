@@ -42,7 +42,7 @@ Desktop Dashboard(Updated): [*****BYLAW INFRACTIONS DASHBOARD II (CLICK ME!)****
 ## 5 Map (neighbourhoods map)
 * Clickable, zoomable, and draggable
 * Illustrates geographical distribution of infractions 
-* Popup containing neighbourhoohd's name and number of infractions appears when map is clicked
+* Popup containing neighbourhoohd's name and number of infractions appears when neighbourhood is clicked
 * Selecting an option (select all exclusive) places a corresponding marker on the map
 * The map and legend vary to reflect filtered data 
 * Map filters are bubblecloud and heatmap 
