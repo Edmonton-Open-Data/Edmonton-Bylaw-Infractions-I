@@ -52,11 +52,9 @@ Desktop Dashboard(Updated): [*****BYLAW INFRACTIONS DASHBOARD II (CLICK ME!)****
 * Updates to match filtered data
 # To-do's
 Improvements for the dashboard include:
-- [x] Construct a [custom layer](http://leafletjs.com/examples/extending/extending-2-layers.html) and set methods to reset and update the layer
-- [x] Set brush on for the map (neighbourhoods to be selected via the map) and change dashboard layout
-- [x] Replace map click with map hover
-- [ ] Only draw the charts after [data is loaded](http://adilmoujahid.com/posts/2016/08/interactive-data-visualization-geospatial-d3-dc-leaflet-python/)
-- [ ] Add a [loader](https://www.w3schools.com/howto/howto_css_loader.asp)
+- [x] Construct a [custom layer](http://leafletjs.com/examples/extending/extending-2-layers.html) and set methods to reset and update the layer (actually used preRedraw and preRender events)
+- [x] Only draw the charts after [data is loaded](http://adilmoujahid.com/posts/2016/08/interactive-data-visualization-geospatial-d3-dc-leaflet-python/)
+- [x] Add a [loader](https://www.w3schools.com/howto/howto_css_loader.asp)
 - [ ] Add a [tabular](https://keen.github.io/dashboards/examples/connected-devices/) component for additional charts
 - [x] Add reset for filterable componets
 - [x] Add reset all for the dashboard
