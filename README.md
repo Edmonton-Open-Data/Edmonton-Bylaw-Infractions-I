@@ -9,7 +9,7 @@ Frameworks used include: [crossfilter.js](http://square.github.io/crossfilter/),
 Best viewed in: Google Chrome
 
 Desktop Dashboard(Outdated): [*****BYLAW INFRACTIONS DASHBOARD I (CLICK ME!)*****]( https://edmonton-open-data.github.io/Edmonton-Bylaw-Infractions-I/index.html)<br>
-Desktop Dashboard(Updated): [*****BYLAW INFRACTIONS DASHBOARD II (CLICK ME!)*****](https://edmonton-open-data.github.io/Edmonton-Bylaw-Infractions-II/index.html)
+Desktop Dashboard(Updated): [*****BYLAW INFRACTIONS DASHBOARD II (CLICK ME!)*****](https://github.com/Edmonton-Open-Data/Edmonton-Bylaw-Infractions-II/blob/master/README.md#edmonton-bylaw-infractions-ii)
 
 ***Note: CLICKABLE ELEMENTS AND MOUSEOVER, ARE DRIVERS IN REVEALING DATA INSIGHT***
 
