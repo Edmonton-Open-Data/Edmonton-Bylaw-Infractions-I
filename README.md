@@ -55,7 +55,7 @@ Improvements for the dashboard include:
 - [x] Construct a [custom layer](http://leafletjs.com/examples/extending/extending-2-layers.html) and set methods to reset and update the layer (actually used preRedraw and preRender events)
 - [x] Only draw the charts after [data is loaded](http://adilmoujahid.com/posts/2016/08/interactive-data-visualization-geospatial-d3-dc-leaflet-python/)
 - [x] Add a [loader](https://www.w3schools.com/howto/howto_css_loader.asp)
-- [ ] Add a [tabular](https://keen.github.io/dashboards/examples/connected-devices/) component for additional charts
+- [ ] Add a [tabular (Traffic)](https://keen.github.io/dashboards/examples/connected-devices/) component for additional charts
 - [x] Add reset for filterable componets
 - [x] Add reset all for the dashboard
 - [ ] Add a feature for downloading a [data table](http://dc-js.github.io/dc.js/examples/download-table.html)
